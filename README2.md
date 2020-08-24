@@ -81,7 +81,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png) \\SYCLONE-PC\Users\Syclone\Pictures\Cyber Screen shots\docker ps.jpg
+[Docker is running!](https://github.com/5ergio8/CWR-Cyber/blob/master/Diagrams/docker%20ps.jpg)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
