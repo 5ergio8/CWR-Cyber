@@ -4,7 +4,6 @@ The files in this repository were used to configure the network depicted below.
 
 [Diagram of the Virtual Environment](https://github.com/5ergio8/CWR-Cyber/blob/master/Diagrams/Diagram2.0.jpg)
 
-https://github.com/5ergio8/CWR-Cyber
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .YML file may be used to install only certain pieces of it, such as Filebeat.
 
