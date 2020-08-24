@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-"C:\Users\Syclone\Pictures\Cyber Screen shots\Diagram2.0.jpg"
+[Diagram of the Virtual Environment](https://github.com/5ergio8/CWR-Cyber/blob/master/Diagrams/Diagram2.0.jpg)
 
 https://github.com/5ergio8/CWR-Cyber
 
