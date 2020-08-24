@@ -81,7 +81,6 @@ The following screenshot displays the result of running `docker ps` after succes
 Docker is Running![alt text](
 https://github.com/5ergio8/CWR-Cyber/blob/master/Diagrams/docker%20ps.jpg "Docker ps")
 
-[Docker is running!](https://github.com/5ergio8/CWR-Cyber/blob/master/Diagrams/docker%20ps.jpg)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -110,6 +109,3 @@ _Which file do you update to make Ansible run the playbook on a specific machine
 
 - _Which URL do you navigate to in order to check that the ELK server is running? http://40.122.52.101:5601/app/kibana
 
-huh?: 
-![alt text](
-https://github.com/5ergio8/CWR-Cyber/blob/master/Diagrams/docker%20ps.jpg "5555")
