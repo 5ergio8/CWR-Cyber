@@ -107,3 +107,6 @@ _Which file do you update to make Ansible run the playbook on a specific machine
 
 - _Which URL do you navigate to in order to check that the ELK server is running? http://40.122.52.101:5601/app/kibana
 
+Inline-style: 
+![alt text](
+https://github.com/5ergio8/CWR-Cyber/blob/master/Diagrams/docker%20ps.jpg "5555")
