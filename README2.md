@@ -72,9 +72,9 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
     The main advantage of automating configuration with Ansible is that it is easier to manage and perform. In case a machine goes down, deploying another one becomes super easy.
 
 The playbook implements the following tasks:
-- ... Create the VM and specifics to it. In this case increasing the memory size.
-  ... Download and configure docker
-- ... Launching the container with certain ports to be accessed for security measure. Ports 5601,9200 and 5044 were used.
+  Create the VM and specifics to it. In this case increasing the memory size.
+  Download and configure docker
+  Launching the container with certain ports to be accessed for security measure. Ports 5601,9200 and 5044 were used.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
