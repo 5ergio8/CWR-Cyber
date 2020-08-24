@@ -1,0 +1,37 @@
+---
+ - name: DVWA Playbook
+   hosts: webservers
+   become: true
+   tasks:
+   - name: docker.io
+     apt:
+       update_cache: yes
+       force_apt_get: yes
+       name: docker.io
+       state: present
+
+    - name: Install Pip
+      apt: 
+        force_apt_get: yes
+        name: python3-pip
+        state: present
+
+    - name: Install Docker Python Module
+      pip:
+        name: docker
+        state: present
+
+    - name: Download and Launch a Docker Web Container
+      docker_container:
+        name: dvwa
+        image: cyberxsecurity/dvwa
+        state: started
+        restart_policy: always
+        published_ports: 80:80
+
+    - name: Enable Docker Service
+      systemd:
+      name: docker
+      enabled: yes
+      
+      #Ansible playbook that installs Docker and configures a VM with the DVWA web app.
