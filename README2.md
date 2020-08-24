@@ -78,6 +78,9 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
+Docker is Running![alt text](
+https://github.com/5ergio8/CWR-Cyber/blob/master/Diagrams/docker%20ps.jpg "Docker ps")
+
 [Docker is running!](https://github.com/5ergio8/CWR-Cyber/blob/master/Diagrams/docker%20ps.jpg)
 
 ### Target Machines & Beats
